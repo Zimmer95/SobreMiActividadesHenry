@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div>
+        <h1> Jorge Zimmermann </h1>
+        <h2> Esta es mi primera pagina web </h2>
+        </div>
+    </header>
+
+    <section id="section2">
+        <div>
+            <h3>Quien soy</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, veritatis voluptatum, obcaecati nesciunt ad, dolor tempore totam quasi maxime et architecto id! Recusandae voluptates modi perspiciatis itaque delectus facilis quos.</p>
+        </div>
+    </section>
+
+    <section id="section3">
+        <div class="row">    
+            <h3> Mis tecnologias favoritas</h3>
+            <div class="column">
+                <h3></h3>
+                <img src="/img/html.png" alt="HTML">
+            </div>
+            <div class="column">
+                <h3></h3>
+                <img src="/img/css.png" alt="CSS">
+            </div>
+            <div class="column">
+                <h3></h3>
+                <img src="/img/js2.png" alt="JavaScript">
+            </div>
+        </div>
+    </section>
+
+    <section id="section4">
+        <form action="">
+            <h3> Actividades que me gusta hacer </h3>
+            <div class="actividades">
+                <label for="titulo">
+                    Titulo
+                    <input type="text" name="titulo" id="titulo" placeholder="Ingrese el tiutulo">
+                </label> 
+            </div>
+            <div class="actividades">
+                <label for="description">
+                    Descripcion
+                    <textarea name="description" id="descripcion" cols="30" rows="10" placeholder = "Ingrese una descripcion"></textarea>
+                </label>
+            </div>
+            <div class="actividades">
+                <label for="imagen">
+                    Imagen
+                    <input type="imgUrl" id="imgUrl" placeholder="https://google.com">
+                </label>
+            </div>
+            <div id="boton">
+                <input type="submit" name="Agregar" id="agregar">
+            </div>
+        </form>
+    </section>
+</body>
+<script src="/scripts/index.js"></script>
+</html>

@@ -1,0 +1,18 @@
+body,section, h1, h2, h3, p, ul, ol, li, dl, dt, dd, div, header{
+    margin: 0;
+    padding: 0;
+}
+
+body, section, div {
+    font-family: Arial, sans-serif; /* Establece una fuente predeterminada para evitar diferencias entre navegadores */
+    line-height: 1;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
