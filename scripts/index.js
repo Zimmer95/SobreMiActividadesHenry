@@ -75,7 +75,7 @@ submit.addEventListener("click", function (event) {
         const cardTitulo = document.createElement("h4");
         const cardDescripcion = document.createElement("p");
         const cardImgUrl = document.createElement("img")
-        cardImgUrl.id = "imgActividades"
+        cardImgUrl.className = "imgActividades"
 
         //agrego los elementos a las columnas
         column.appendChild(cardTitulo);
