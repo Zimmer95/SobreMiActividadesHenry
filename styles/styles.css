@@ -81,7 +81,7 @@ form{
     margin: 2vh;
 }
 
-#imgActividades{
+.imgActividades{
     padding: 0.2rem;
     object-fit: cover;
 }
@@ -140,11 +140,11 @@ form>div>input:hover{
 background: linear-gradient(to right, var(--blue-dark), var(--blue-light), var(--blue-dark));
 }
 
-#imgActividades{
+.imgActividades{
     border-radius: 15px;
 }
 
-#imgActividades:hover{
+.imgActividades:hover{
     border-radius: 30px;
     opacity: 35%;
 }
