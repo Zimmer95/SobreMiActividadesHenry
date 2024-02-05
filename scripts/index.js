@@ -34,8 +34,6 @@ class Repository{
 
 const repository = new Repository()
 
-
-
 console.log(repository)
 
 //armo el secction
@@ -46,8 +44,6 @@ seccion.id = "section5"
 const row = document.createElement("div");
 seccion.appendChild(row)
 row.className = "row"
-
-
 
 //inicializo las variables
 const titulo = document.querySelector("#titulo");
@@ -73,6 +69,7 @@ submit.addEventListener("click", function (event) {
         const column = document.createElement("div");
         row.appendChild(column)
         column.className = "column"
+        column.id = "actividades"
 
         //creo los elementos que iran dento de la columna
         const cardTitulo = document.createElement("h4");
@@ -85,10 +82,9 @@ submit.addEventListener("click", function (event) {
         column.appendChild(cardDescripcion);
         column.appendChild(cardImgUrl);
 
-        cardTitulo.innerText =  `Actividad: ${activity.title}`;
-        cardDescripcion.innerText = `Descripcion: ${activity.description}`
+        cardTitulo.innerText =  activity.title;
+        cardDescripcion.innerText = activity.description
         cardImgUrl.src = activity.imgUrl;
-
         
         document.body.appendChild(seccion)
         console.log(seccion)
@@ -96,3 +92,6 @@ submit.addEventListener("click", function (event) {
     
     console.log(repository.getAllActivities())
 });
+
+
+module.exports = {Activity, Repository}

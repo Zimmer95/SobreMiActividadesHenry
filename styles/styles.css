@@ -12,7 +12,6 @@
     --green: #2c7b90;
 }
 
-
 body{
     background: linear-gradient(to bottom, var(--blue-light), var(--blue-dark));
     background-color: black;
@@ -83,8 +82,13 @@ form{
 }
 
 #imgActividades{
-    padding: 15px;
+    padding: 0.2rem;
+    object-fit: cover;
 }
+/* 
+#actividades{
+    max-width: 100px;
+} */
 
 .actividades{
     margin: 0 auto;
@@ -136,8 +140,13 @@ form>div>input:hover{
 background: linear-gradient(to right, var(--blue-dark), var(--blue-light), var(--blue-dark));
 }
 
-section>div>img:hover{
-    background: linear-gradient(to right, var(--blue-dark), var(--purple), var(--blue-dark));
+#imgActividades{
+    border-radius: 15px;
+}
+
+#imgActividades:hover{
+    border-radius: 30px;
+    opacity: 35%;
 }
 
 #boton{
@@ -175,7 +184,9 @@ section>div>img:hover{
     h3{
         font-size: 2.5vw;
     }
-    
+    h4{
+        font-size: 2vh;
+    }
     p, label{
         font-size: 2vh;
         font-weight: normal;
@@ -192,7 +203,9 @@ section>div>img:hover{
     h3{
         font-size: 2.5vh;
     }
-    
+    h4{
+        font-size: 2vh;
+    }
     p, label{
         font-size: 2vh;
         font-weight: normal;
@@ -209,7 +222,9 @@ section>div>img:hover{
     h3{
         font-size: 2vh;
     }
-    
+    h4{
+        font-size: 2vh;
+    }
     p, label{
         font-size: 2vh;
         font-weight: normal;
@@ -226,7 +241,9 @@ section>div>img:hover{
     h3{
         font-size: 2vh;
     }
-    
+    h4{
+        font-size: 2vh;
+    }
     p, label{
         font-size: 2vh;
         font-weight: normal;
